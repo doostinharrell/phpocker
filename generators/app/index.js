@@ -29,7 +29,8 @@ module.exports = yeoman.generators.Base.extend({
       type: 'input',
       name: 'hostIP',
       message: 'Host IP of your system on the docker network (typically .1 host on your docker-machine eth0 net)',
-      store: true
+      store: true,
+      default: 'docker.for.mac.localhost'
     },
     {
       type: 'input',
